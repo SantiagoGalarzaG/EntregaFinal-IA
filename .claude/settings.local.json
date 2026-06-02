@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(find \"d:\\\\\\\\IX semestre\\\\\\\\Inteligencia artificial II\\\\\\\\final\" -type d -not -path \"*/.git/*\")",
+      "Bash(python -c \"import ast; ast.parse\\(open\\('src/app.py'\\).read\\(\\)\\); print\\('OK — sintaxis válida'\\)\")",
+      "Bash(python -c \"import ast; ast.parse\\(open\\('src/app.py'\\).read\\(\\)\\); print\\('OK'\\)\")",
+      "Bash(python -c ' *)",
+      "PowerShell(cd \"d:\\\\IX semestre\\\\Inteligencia artificial II\\\\final\"; python -m pip show git-filter-repo 2>$null; \\(Get-Command git-filter-repo -ErrorAction SilentlyContinue\\).Source)",
+      "Bash(python -c \"import ast; ast.parse\\(open\\('src/app.py'\\).read\\(\\)\\); print\\('Sintaxis OK'\\)\")",
+      "Bash(git remote *)",
+      "Bash(git add *)",
+      "Bash(git commit -m ' *)",
+      "Bash(git push *)"
+    ]
+  }
+}
